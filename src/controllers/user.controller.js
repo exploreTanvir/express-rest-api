@@ -1,5 +1,10 @@
-exports.example=(req,res)=>{
+exports.helloGet=(req,res)=>{
     res.status(200).json({
+        message:"success"
+    })
+}
+exports.helloPost=(req,res)=>{
+    res.status(201).json({
         message:"success"
     })
 }
